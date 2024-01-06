@@ -1,0 +1,4600 @@
+{
+  "version": 1.0,
+  "egoVehicle": {
+    "DataID": 20600007,
+    "UNIQUEID": -1,
+    "m_eobstacleObjType": 0,
+    "initPosition": {
+      "initPositionMode": "Absolute",
+      "pos": {
+        "x": -13.222999572753906,
+        "y": 5.38700008392334,
+        "z": 0.030999999493360519,
+        "_x": "-13.223",
+        "_y": "5.387",
+        "_z": "0.031"
+      },
+      "rot": {
+        "roll": "-359.976",
+        "pitch": "0.610",
+        "yaw": "-176.750"
+      },
+      "initLink": "",
+      "initLinkRatio": 0,
+      "gear": 1,
+      "vehicleSaveData": {
+        "velocity": 5.9981516642437782E-07,
+        "inputData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "vehicle": {
+          "time": 3793.09814453125,
+          "lastVelocity": {
+            "x": 3.26438751585556E-08,
+            "y": 1.4901170075631853E-08,
+            "z": -1.0698136776454703E-07
+          },
+          "lastImpactTime": 2694.59130859375
+        },
+        "wheels": [
+          {
+            "L": -1.0562860841263708E-16,
+            "Tr": -1.6655275545705904E-15,
+            "contactDepth": 0.017694851383566856,
+            "lastTireForce": {
+              "x": 1.3167241377232131E-05,
+              "y": 2.6806839059645426E-07
+            }
+          },
+          {
+            "L": 2.7613591717845411E-17,
+            "Tr": 1.6655275545705904E-15,
+            "contactDepth": 0.017775708809494972,
+            "lastTireForce": {
+              "x": 1.3227339877630584E-05,
+              "y": 1.6149982684510178E-07
+            }
+          },
+          {
+            "L": -1.2370122101261006E-17,
+            "Tr": 2.7735762985597043E-16,
+            "contactDepth": 0.014923209324479103,
+            "lastTireForce": {
+              "x": 1.1076474038418382E-05,
+              "y": 3.0912062243260152E-07
+            }
+          },
+          {
+            "L": -3.455873248973864E-17,
+            "Tr": -2.7735762985597043E-16,
+            "contactDepth": 0.015006197616457939,
+            "lastTireForce": {
+              "x": 1.1137993169541005E-05,
+              "y": 2.0369513720197574E-07
+            }
+          }
+        ],
+        "engine": {
+          "L": 0.0,
+          "Treaction": 0.0,
+          "rpmLimiterActive": false,
+          "rpmLimiterTime": 0.0,
+          "tcsActivationTime": 0.0
+        },
+        "gearbox": {
+          "L": 0.0,
+          "manualGear": 0,
+          "manualRatio": 0.0,
+          "engaged": false,
+          "lastEngagedTime": 0.0,
+          "lastAutoShiftTime": 0.0,
+          "vehicleMoving": false,
+          "gearMode": 0,
+          "automaticGear": 0,
+          "automaticRatio": 0.0,
+          "transition": false,
+          "transitionStartedTime": 0.0,
+          "fromGear": 0,
+          "toGear": 0,
+          "fromRatio": 0.0,
+          "toRatio": 0.0,
+          "transitionRatio": 0.0
+        },
+        "lastVelocity": {
+          "x": 3.26438751585556E-08,
+          "y": 1.4901170075631853E-08,
+          "z": -1.0698136776454703E-07
+        }
+      }
+    },
+    "currentVelocity": 5.9981516642437782E-07,
+    "v2vUDPSessionInfo": {
+      "isInit": false,
+      "v2vConfig": {
+        "hostIP": "0.0.0.0",
+        "Port": 5641,
+        "receiveTimeout": 0,
+        "BuffSize": 8196,
+        "surroundVehiclePubTime": 100
+      }
+    },
+    "beforeControlMode": 3,
+    "currentControlMode": 1
+  },
+  "vehicleList": [
+    {
+      "DataID": 30600011,
+      "UNIQUEID": 3,
+      "m_eobstacleObjType": 1,
+      "initPosition": {
+        "initPositionMode": "Absolute",
+        "pos": {
+          "x": 13.666999816894531,
+          "y": -1.0659999847412109,
+          "z": 0.034000001847743988,
+          "_x": "13.667",
+          "_y": "-1.066",
+          "_z": "0.034"
+        },
+        "rot": {
+          "roll": "0.002",
+          "pitch": "0.615",
+          "yaw": "39.993"
+        },
+        "initLink": "8",
+        "initLinkRatio": 0,
+        "gear": 4,
+        "vehicleSaveData": {
+          "velocity": 0.856433629989624,
+          "inputData": [
+            -5794,
+            34,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "vehicle": {
+            "time": 2882.4296875,
+            "lastVelocity": {
+              "x": -0.16772952675819397,
+              "y": -7.7769160270690918E-05,
+              "z": -0.16997697949409485
+            },
+            "lastImpactTime": 0.0
+          },
+          "wheels": [
+            {
+              "L": 0.068540096282958984,
+              "Tr": -0.063519813120365143,
+              "contactDepth": 0.017744634300470352,
+              "lastTireForce": {
+                "x": 2.3573737144470215,
+                "y": 1.9248329401016235
+              }
+            },
+            {
+              "L": 0.078123658895492554,
+              "Tr": 0.1130383238196373,
+              "contactDepth": 0.017739225178956985,
+              "lastTireForce": {
+                "x": -2.013153076171875,
+                "y": -3.4253971576690674
+              }
+            },
+            {
+              "L": 0.066809780895709991,
+              "Tr": -0.049456756561994553,
+              "contactDepth": 0.014958810061216354,
+              "lastTireForce": {
+                "x": 1.9951956272125244,
+                "y": 1.498686671257019
+              }
+            },
+            {
+              "L": 0.076897740364074707,
+              "Tr": 0.135548934340477,
+              "contactDepth": 0.014953214675188065,
+              "lastTireForce": {
+                "x": 1.9202337265014648,
+                "y": -4.1075425148010254
+              }
+            }
+          ],
+          "engine": {
+            "L": 0.0,
+            "Treaction": 0.0,
+            "rpmLimiterActive": false,
+            "rpmLimiterTime": 0.0,
+            "tcsActivationTime": 0.0
+          },
+          "gearbox": {
+            "L": 0.0,
+            "manualGear": 0,
+            "manualRatio": 0.0,
+            "engaged": false,
+            "lastEngagedTime": 0.0,
+            "lastAutoShiftTime": 0.0,
+            "vehicleMoving": false,
+            "gearMode": 0,
+            "automaticGear": 0,
+            "automaticRatio": 0.0,
+            "transition": false,
+            "transitionStartedTime": 0.0,
+            "fromGear": 0,
+            "toGear": 0,
+            "fromRatio": 0.0,
+            "toRatio": 0.0,
+            "transitionRatio": 0.0
+          },
+          "lastVelocity": {
+            "x": -0.16772952675819397,
+            "y": -7.7769160270690918E-05,
+            "z": -0.16997697949409485
+          }
+        }
+      },
+      "velocityType": 2,
+      "linkVelocity": 85.0,
+      "constantVelocity": 1.0,
+      "desiredVelocity": 1.0,
+      "currentVelocity": 0.856433629989624,
+      "viewCurrentVelocity": 1.0,
+      "isCloseLoop": true,
+      "isLaneChange": false,
+      "isEgo": false,
+      "spawnPointUniqueID": -1,
+      "destinationUniqueID": -1,
+      "startPointLinkInfo": {
+        "linkIdx": "213",
+        "pointIdx": 1
+      },
+      "endPointLinkInfo": {
+        "linkIdx": "",
+        "pointIdx": 0
+      },
+      "currentLinkInfo": {
+        "linkIdx": "8",
+        "pointIdx": 10
+      },
+      "loopStartLinkInfo": {
+        "linkIdx": "213",
+        "pointIdx": 1
+      },
+      "v2vUDPSessionInfo": {
+        "isInit": false,
+        "v2vConfig": {
+          "hostIP": "0.0.0.0",
+          "Port": 5644,
+          "receiveTimeout": 0,
+          "BuffSize": 8196,
+          "surroundVehiclePubTime": 100
+        }
+      },
+      "latBiasMode": 1,
+      "bias": 0.0,
+      "destinationMode": 1,
+      "vehicleModelType": 257
+    },
+    {
+      "DataID": 30600011,
+      "UNIQUEID": 2,
+      "m_eobstacleObjType": 1,
+      "initPosition": {
+        "initPositionMode": "Absolute",
+        "pos": {
+          "x": 12.041000366210938,
+          "y": 1.1469999551773071,
+          "z": 0.034000001847743988,
+          "_x": "12.041",
+          "_y": "1.147",
+          "_z": "0.034"
+        },
+        "rot": {
+          "roll": "-359.988",
+          "pitch": "0.616",
+          "yaw": "-146.065"
+        },
+        "initLink": "6",
+        "initLinkRatio": 0,
+        "gear": 4,
+        "vehicleSaveData": {
+          "velocity": 0.86323380470275879,
+          "inputData": [
+            -6797,
+            34,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "vehicle": {
+            "time": 2882.4296875,
+            "lastVelocity": {
+              "x": 0.18488161265850067,
+              "y": -7.6353549957275391E-05,
+              "z": 0.15431663393974304
+            },
+            "lastImpactTime": 0.0
+          },
+          "wheels": [
+            {
+              "L": 0.068898506462574,
+              "Tr": -0.0876842811703682,
+              "contactDepth": 0.017726670950651169,
+              "lastTireForce": {
+                "x": 0.34410405158996582,
+                "y": 2.5728542804718018
+              }
+            },
+            {
+              "L": 0.079381242394447327,
+              "Tr": 0.14828023314476013,
+              "contactDepth": 0.017762739211320877,
+              "lastTireForce": {
+                "x": -5.27188777923584,
+                "y": -4.4933404922485352
+              }
+            },
+            {
+              "L": 0.066806763410568237,
+              "Tr": -0.088418066501617432,
+              "contactDepth": 0.014934271574020386,
+              "lastTireForce": {
+                "x": 2.2227563858032227,
+                "y": 2.679335355758667
+              }
+            },
+            {
+              "L": 0.077925510704517365,
+              "Tr": 0.16148398816585541,
+              "contactDepth": 0.014971476048231125,
+              "lastTireForce": {
+                "x": 2.1294081211090088,
+                "y": -4.8934540748596191
+              }
+            }
+          ],
+          "engine": {
+            "L": 0.0,
+            "Treaction": 0.0,
+            "rpmLimiterActive": false,
+            "rpmLimiterTime": 0.0,
+            "tcsActivationTime": 0.0
+          },
+          "gearbox": {
+            "L": 0.0,
+            "manualGear": 0,
+            "manualRatio": 0.0,
+            "engaged": false,
+            "lastEngagedTime": 0.0,
+            "lastAutoShiftTime": 0.0,
+            "vehicleMoving": false,
+            "gearMode": 0,
+            "automaticGear": 0,
+            "automaticRatio": 0.0,
+            "transition": false,
+            "transitionStartedTime": 0.0,
+            "fromGear": 0,
+            "toGear": 0,
+            "fromRatio": 0.0,
+            "toRatio": 0.0,
+            "transitionRatio": 0.0
+          },
+          "lastVelocity": {
+            "x": 0.18488161265850067,
+            "y": -7.6353549957275391E-05,
+            "z": 0.15431663393974304
+          }
+        }
+      },
+      "velocityType": 2,
+      "linkVelocity": 85.0,
+      "constantVelocity": 1.0,
+      "desiredVelocity": 1.0,
+      "currentVelocity": 0.86323380470275879,
+      "viewCurrentVelocity": 1.0,
+      "isCloseLoop": true,
+      "isLaneChange": false,
+      "isEgo": false,
+      "spawnPointUniqueID": -1,
+      "destinationUniqueID": -1,
+      "startPointLinkInfo": {
+        "linkIdx": "6",
+        "pointIdx": 2
+      },
+      "endPointLinkInfo": {
+        "linkIdx": "",
+        "pointIdx": 0
+      },
+      "currentLinkInfo": {
+        "linkIdx": "6",
+        "pointIdx": 9
+      },
+      "loopStartLinkInfo": {
+        "linkIdx": "6",
+        "pointIdx": 2
+      },
+      "v2vUDPSessionInfo": {
+        "isInit": false,
+        "v2vConfig": {
+          "hostIP": "0.0.0.0",
+          "Port": 5643,
+          "receiveTimeout": 0,
+          "BuffSize": 8196,
+          "surroundVehiclePubTime": 100
+        }
+      },
+      "latBiasMode": 1,
+      "bias": 0.0,
+      "destinationMode": 1,
+      "vehicleModelType": 257
+    },
+    {
+      "DataID": 30600011,
+      "UNIQUEID": 72,
+      "m_eobstacleObjType": 1,
+      "initPosition": {
+        "initPositionMode": "Absolute",
+        "pos": {
+          "x": -10.932999610900879,
+          "y": -5.4239997863769531,
+          "z": 0.034000001847743988,
+          "_x": "-10.933",
+          "_y": "-5.424",
+          "_z": "0.034"
+        },
+        "rot": {
+          "roll": "0.000",
+          "pitch": "0.612",
+          "yaw": "1.213"
+        },
+        "initLink": "192",
+        "initLinkRatio": 0,
+        "gear": 4,
+        "vehicleSaveData": {
+          "velocity": 1.6269924572043237E-06,
+          "inputData": [
+            11,
+            0,
+            10000,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "vehicle": {
+            "time": 2797.3466796875,
+            "lastVelocity": {
+              "x": 2.5418394500320574E-08,
+              "y": -2.086162709247219E-07,
+              "z": 9.4037297060367564E-08
+            },
+            "lastImpactTime": 0.0
+          },
+          "wheels": [
+            {
+              "L": 2.6735536188897922E-17,
+              "Tr": -1.1053714316615207E-15,
+              "contactDepth": 0.017739389091730118,
+              "lastTireForce": {
+                "x": -1.0020503395935521E-05,
+                "y": -2.5785366730701753E-08
+              }
+            },
+            {
+              "L": 1.1516524648665484E-16,
+              "Tr": 1.1053714316615207E-15,
+              "contactDepth": 0.017739515751600266,
+              "lastTireForce": {
+                "x": -1.0020486115536187E-05,
+                "y": -1.3090824779737886E-07
+              }
+            },
+            {
+              "L": 1.6489825658909905E-17,
+              "Tr": -1.3635470739846315E-15,
+              "contactDepth": 0.014960512518882751,
+              "lastTireForce": {
+                "x": -8.54038808029145E-06,
+                "y": -2.4126324049689174E-08
+              }
+            },
+            {
+              "L": 1.2557358734251569E-16,
+              "Tr": 1.3635470739846315E-15,
+              "contactDepth": 0.014960616827011108,
+              "lastTireForce": {
+                "x": -8.5404199126060121E-06,
+                "y": -1.325685872188842E-07
+              }
+            }
+          ],
+          "engine": {
+            "L": 0.0,
+            "Treaction": 0.0,
+            "rpmLimiterActive": false,
+            "rpmLimiterTime": 0.0,
+            "tcsActivationTime": 0.0
+          },
+          "gearbox": {
+            "L": 0.0,
+            "manualGear": 0,
+            "manualRatio": 0.0,
+            "engaged": false,
+            "lastEngagedTime": 0.0,
+            "lastAutoShiftTime": 0.0,
+            "vehicleMoving": false,
+            "gearMode": 0,
+            "automaticGear": 0,
+            "automaticRatio": 0.0,
+            "transition": false,
+            "transitionStartedTime": 0.0,
+            "fromGear": 0,
+            "toGear": 0,
+            "fromRatio": 0.0,
+            "toRatio": 0.0,
+            "transitionRatio": 0.0
+          },
+          "lastVelocity": {
+            "x": 2.5418394500320574E-08,
+            "y": -2.086162709247219E-07,
+            "z": 9.4037297060367564E-08
+          }
+        }
+      },
+      "velocityType": 2,
+      "linkVelocity": 85.0,
+      "constantVelocity": 0.0,
+      "desiredVelocity": 0.0,
+      "currentVelocity": 1.6269924572043237E-06,
+      "viewCurrentVelocity": 0.0,
+      "isCloseLoop": false,
+      "isLaneChange": true,
+      "isEgo": false,
+      "spawnPointUniqueID": -1,
+      "destinationUniqueID": -1,
+      "startPointLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 139
+      },
+      "endPointLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 163
+      },
+      "currentLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 139
+      },
+      "loopStartLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 139
+      },
+      "v2vUDPSessionInfo": {
+        "isInit": false,
+        "v2vConfig": {
+          "hostIP": "0.0.0.0",
+          "Port": 5713,
+          "receiveTimeout": 0,
+          "BuffSize": 8196,
+          "surroundVehiclePubTime": 100
+        }
+      },
+      "latBiasMode": 1,
+      "bias": 0.0,
+      "destinationMode": 1,
+      "vehicleModelType": 257
+    },
+    {
+      "DataID": 30600011,
+      "UNIQUEID": 147,
+      "m_eobstacleObjType": 1,
+      "initPosition": {
+        "initPositionMode": "Absolute",
+        "pos": {
+          "x": -9.7329998016357422,
+          "y": -5.4239997863769531,
+          "z": 0.034000001847743988,
+          "_x": "-9.733",
+          "_y": "-5.424",
+          "_z": "0.034"
+        },
+        "rot": {
+          "roll": "0.000",
+          "pitch": "0.612",
+          "yaw": "1.213"
+        },
+        "initLink": "192",
+        "initLinkRatio": 0,
+        "gear": 4,
+        "vehicleSaveData": {
+          "velocity": 1.2403926348270033E-06,
+          "inputData": [
+            30,
+            0,
+            10000,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "vehicle": {
+            "time": 2797.3466796875,
+            "lastVelocity": {
+              "x": -1.2886318678795305E-08,
+              "y": 1.7881393432617188E-07,
+              "z": -5.7634576222653777E-08
+            },
+            "lastImpactTime": 0.0
+          },
+          "wheels": [
+            {
+              "L": 2.6735536188897922E-17,
+              "Tr": -1.1053714316615207E-15,
+              "contactDepth": 0.017739396542310715,
+              "lastTireForce": {
+                "x": -1.2107277143513784E-05,
+                "y": 1.0826075680370195E-07
+              }
+            },
+            {
+              "L": 1.1516524648665484E-16,
+              "Tr": 1.1053714316615207E-15,
+              "contactDepth": 0.017739485949277878,
+              "lastTireForce": {
+                "x": -1.2107412658224348E-05,
+                "y": 1.5739381353796489E-07
+              }
+            },
+            {
+              "L": 1.6489825658909905E-17,
+              "Tr": -1.3635470739846315E-15,
+              "contactDepth": 0.014960501343011856,
+              "lastTireForce": {
+                "x": -1.0168744665861595E-05,
+                "y": 1.0811427841872501E-07
+              }
+            },
+            {
+              "L": 1.2557358734251569E-16,
+              "Tr": 1.3635470739846315E-15,
+              "contactDepth": 0.014960620552301407,
+              "lastTireForce": {
+                "x": -1.0168811058974825E-05,
+                "y": 1.5879949444297381E-07
+              }
+            }
+          ],
+          "engine": {
+            "L": 0.0,
+            "Treaction": 0.0,
+            "rpmLimiterActive": false,
+            "rpmLimiterTime": 0.0,
+            "tcsActivationTime": 0.0
+          },
+          "gearbox": {
+            "L": 0.0,
+            "manualGear": 0,
+            "manualRatio": 0.0,
+            "engaged": false,
+            "lastEngagedTime": 0.0,
+            "lastAutoShiftTime": 0.0,
+            "vehicleMoving": false,
+            "gearMode": 0,
+            "automaticGear": 0,
+            "automaticRatio": 0.0,
+            "transition": false,
+            "transitionStartedTime": 0.0,
+            "fromGear": 0,
+            "toGear": 0,
+            "fromRatio": 0.0,
+            "toRatio": 0.0,
+            "transitionRatio": 0.0
+          },
+          "lastVelocity": {
+            "x": -1.2886318678795305E-08,
+            "y": 1.7881393432617188E-07,
+            "z": -5.7634576222653777E-08
+          }
+        }
+      },
+      "velocityType": 2,
+      "linkVelocity": 85.0,
+      "constantVelocity": 0.0,
+      "desiredVelocity": 0.0,
+      "currentVelocity": 1.2403926348270033E-06,
+      "viewCurrentVelocity": 0.0,
+      "isCloseLoop": false,
+      "isLaneChange": true,
+      "isEgo": false,
+      "spawnPointUniqueID": -1,
+      "destinationUniqueID": -1,
+      "startPointLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 145
+      },
+      "endPointLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 163
+      },
+      "currentLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 145
+      },
+      "loopStartLinkInfo": {
+        "linkIdx": "192",
+        "pointIdx": 145
+      },
+      "v2vUDPSessionInfo": {
+        "isInit": false,
+        "v2vConfig": {
+          "hostIP": "0.0.0.0",
+          "Port": 5788,
+          "receiveTimeout": 0,
+          "BuffSize": 8196,
+          "surroundVehiclePubTime": 100
+        }
+      },
+      "latBiasMode": 1,
+      "bias": 0.0,
+      "destinationMode": 1,
+      "vehicleModelType": 257
+    },
+    {
+      "DataID": 30600011,
+      "UNIQUEID": 148,
+      "m_eobstacleObjType": 1,
+      "initPosition": {
+        "initPositionMode": "Absolute",
+        "pos": {
+          "x": -6.6999998092651367,
+          "y": -5.0749998092651367,
+          "z": 0.034000001847743988,
+          "_x": "-6.700",
+          "_y": "-5.075",
+          "_z": "0.034"
+        },
+        "rot": {
+          "roll": "0.000",
+          "pitch": "0.612",
+          "yaw": "181.224"
+        },
+        "initLink": "191",
+        "initLinkRatio": 0,
+        "gear": 4,
+        "vehicleSaveData": {
+          "velocity": 8.0545095215711626E-07,
+          "inputData": [
+            0,
+            0,
+            10000,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "vehicle": {
+            "time": 2797.3466796875,
+            "lastVelocity": {
+              "x": 3.661498482188108E-08,
+              "y": 2.086162709247219E-07,
+              "z": -1.8749024377484602E-07
+            },
+            "lastImpactTime": 0.0
+          },
+          "wheels": [
+            {
+              "L": -9.075534513356201E-17,
+              "Tr": 1.1140177322288558E-15,
+              "contactDepth": 0.0177394337952137,
+              "lastTireForce": {
+                "x": 1.4223476682673208E-05,
+                "y": 6.4382483344616048E-08
+              }
+            },
+            {
+              "L": -1.7987676371187047E-16,
+              "Tr": -1.1140177322288558E-15,
+              "contactDepth": 0.017739474773406982,
+              "lastTireForce": {
+                "x": 1.42233693622984E-05,
+                "y": -6.72671944812464E-08
+              }
+            },
+            {
+              "L": -8.9291672200706579E-17,
+              "Tr": -2.4041370023236697E-15,
+              "contactDepth": 0.014960542321205139,
+              "lastTireForce": {
+                "x": 1.1883143997692969E-05,
+                "y": 6.6460614789320971E-08
+              }
+            },
+            {
+              "L": 1.0303928163243989E-16,
+              "Tr": 2.4041370023236697E-15,
+              "contactDepth": 0.014960560947656631,
+              "lastTireForce": {
+                "x": 1.1883040315296967E-05,
+                "y": -6.9344466169241059E-08
+              }
+            }
+          ],
+          "engine": {
+            "L": 0.0,
+            "Treaction": 0.0,
+            "rpmLimiterActive": false,
+            "rpmLimiterTime": 0.0,
+            "tcsActivationTime": 0.0
+          },
+          "gearbox": {
+            "L": 0.0,
+            "manualGear": 0,
+            "manualRatio": 0.0,
+            "engaged": false,
+            "lastEngagedTime": 0.0,
+            "lastAutoShiftTime": 0.0,
+            "vehicleMoving": false,
+            "gearMode": 0,
+            "automaticGear": 0,
+            "automaticRatio": 0.0,
+            "transition": false,
+            "transitionStartedTime": 0.0,
+            "fromGear": 0,
+            "toGear": 0,
+            "fromRatio": 0.0,
+            "toRatio": 0.0,
+            "transitionRatio": 0.0
+          },
+          "lastVelocity": {
+            "x": 3.661498482188108E-08,
+            "y": 2.086162709247219E-07,
+            "z": -1.8749024377484602E-07
+          }
+        }
+      },
+      "velocityType": 2,
+      "linkVelocity": 85.0,
+      "constantVelocity": 0.0,
+      "desiredVelocity": 0.0,
+      "currentVelocity": 8.0545095215711626E-07,
+      "viewCurrentVelocity": 0.0,
+      "isCloseLoop": false,
+      "isLaneChange": false,
+      "isEgo": false,
+      "spawnPointUniqueID": -1,
+      "destinationUniqueID": -1,
+      "startPointLinkInfo": {
+        "linkIdx": "191",
+        "pointIdx": 2
+      },
+      "endPointLinkInfo": {
+        "linkIdx": "LN000000",
+        "pointIdx": 80
+      },
+      "currentLinkInfo": {
+        "linkIdx": "191",
+        "pointIdx": 2
+      },
+      "loopStartLinkInfo": {
+        "linkIdx": "191",
+        "pointIdx": 2
+      },
+      "v2vUDPSessionInfo": {
+        "isInit": false,
+        "v2vConfig": {
+          "hostIP": "0.0.0.0",
+          "Port": 5789,
+          "receiveTimeout": 0,
+          "BuffSize": 8196,
+          "surroundVehiclePubTime": 100
+        }
+      },
+      "latBiasMode": 1,
+      "bias": 0.0,
+      "destinationMode": 1,
+      "vehicleModelType": 257
+    }
+  ],
+  "pedestrianList": [
+    {
+      "DataID": 50100039,
+      "UNIQUEID": 75,
+      "m_eobstacleObjType": 2,
+      "pos": {
+        "x": 4.059999942779541,
+        "y": 4.5570001602172852,
+        "z": 0.0,
+        "_x": "4.060",
+        "_y": "4.557",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "91.224"
+      },
+      "activeDistance": 2.2000000476837158,
+      "speed": 3.0,
+      "active": true,
+      "loop": false,
+      "initPos": {
+        "x": -4.059999942779541,
+        "y": 0.0,
+        "z": -4.53000020980835,
+        "_x": "-4.060",
+        "_y": "0.000",
+        "_z": "-4.530"
+      },
+      "initRot": {
+        "roll": "0.000",
+        "pitch": "180.000",
+        "yaw": "0.000"
+      },
+      "movingDistance": 2.0,
+      "movingDistanceAmount": 0.0,
+      "standardPos": {
+        "x": -4.059999942779541,
+        "y": 0.0,
+        "z": -4.53000020980835,
+        "_x": "-4.060",
+        "_y": "0.000",
+        "_z": "-4.530"
+      },
+      "anim": {
+        "m_FileID": -42834,
+        "m_PathID": 0
+      },
+      "stateNameHash": 2081823275,
+      "stateNormalizedTime": 2678.35693359375,
+      "pedestrianBehavior": 1,
+      "pedestrianType": 0,
+      "listObjIDForBehavior": [],
+      "animSpeed": 0.0
+    },
+    {
+      "DataID": 50100039,
+      "UNIQUEID": 76,
+      "m_eobstacleObjType": 2,
+      "pos": {
+        "x": 2.3069999217987061,
+        "y": 4.5580000877380371,
+        "z": 0.0,
+        "_x": "2.307",
+        "_y": "4.558",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "91.224"
+      },
+      "activeDistance": 2.2000000476837158,
+      "speed": 1.5,
+      "active": true,
+      "loop": false,
+      "initPos": {
+        "x": -2.3069999217987061,
+        "y": 0.0,
+        "z": -4.5440001487731934,
+        "_x": "-2.307",
+        "_y": "0.000",
+        "_z": "-4.544"
+      },
+      "initRot": {
+        "roll": "0.000",
+        "pitch": "180.000",
+        "yaw": "0.000"
+      },
+      "movingDistance": 2.0,
+      "movingDistanceAmount": 0.0,
+      "standardPos": {
+        "x": -2.3069999217987061,
+        "y": 0.0,
+        "z": -4.5440001487731934,
+        "_x": "-2.307",
+        "_y": "0.000",
+        "_z": "-4.544"
+      },
+      "anim": {
+        "m_FileID": -43030,
+        "m_PathID": 0
+      },
+      "stateNameHash": 2081823275,
+      "stateNormalizedTime": 2670.66357421875,
+      "pedestrianBehavior": 1,
+      "pedestrianType": 0,
+      "listObjIDForBehavior": [],
+      "animSpeed": 0.0
+    }
+  ],
+  "objectList": [
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 70,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.915000915527344,
+        "y": 0.42800000309944153,
+        "z": 0.0,
+        "_x": "-16.915",
+        "_y": "0.428",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 21,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.343000411987305,
+        "y": 4.4330000877380371,
+        "z": 0.0,
+        "_x": "-15.343",
+        "_y": "4.433",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.297"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 63,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.954000473022461,
+        "y": 1.0279999971389771,
+        "z": 0.0,
+        "_x": "-16.954",
+        "_y": "1.028",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 57,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.429000854492188,
+        "y": 1.5679999589920044,
+        "z": 0.0,
+        "_x": "-16.429",
+        "_y": "1.568",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 64,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.135000228881836,
+        "y": 1.0440000295639038,
+        "z": 0.0,
+        "_x": "-16.135",
+        "_y": "1.044",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 68,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.822999954223633,
+        "y": 0.640999972820282,
+        "z": 0.0,
+        "_x": "-16.823",
+        "_y": "0.641",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 59,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.113000869750977,
+        "y": 1.3930000066757202,
+        "z": 0.0,
+        "_x": "-17.113",
+        "_y": "1.393",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 58,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.24799919128418,
+        "y": 1.6059999465942383,
+        "z": 0.0,
+        "_x": "-17.248",
+        "_y": "1.606",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 66,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.138999938964844,
+        "y": 0.83600002527236938,
+        "z": 0.0,
+        "_x": "-16.139",
+        "_y": "0.836",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 67,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.163000106811523,
+        "y": 0.63400000333786011,
+        "z": 0.0,
+        "_x": "-16.163",
+        "_y": "0.634",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 86,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.441999435424805,
+        "y": -0.75199997425079346,
+        "z": 0.0,
+        "_x": "-16.442",
+        "_y": "-0.752",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 61,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.033000946044922,
+        "y": 1.2000000476837158,
+        "z": 0.0,
+        "_x": "-17.033",
+        "_y": "1.200",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 62,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.242000579833984,
+        "y": 1.2230000495910645,
+        "z": 0.0,
+        "_x": "-16.242",
+        "_y": "1.223",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 51,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.642999649047852,
+        "y": 2.247999906539917,
+        "z": 0.0,
+        "_x": "-16.643",
+        "_y": "2.248",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 56,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.295999526977539,
+        "y": 1.7899999618530273,
+        "z": 0.0,
+        "_x": "-17.296",
+        "_y": "1.790",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 49,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.722999572753906,
+        "y": 2.5460000038146973,
+        "z": 0.0,
+        "_x": "-16.723",
+        "_y": "2.546",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.519"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 52,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.361000061035156,
+        "y": 2.2139999866485596,
+        "z": 0.0,
+        "_x": "-17.361",
+        "_y": "2.214",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 55,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.496999740600586,
+        "y": 1.7990000247955322,
+        "z": 0.0,
+        "_x": "-16.497",
+        "_y": "1.799",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 54,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.312000274658203,
+        "y": 2.0109999179840088,
+        "z": 0.0,
+        "_x": "-17.312",
+        "_y": "2.011",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 48,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.437999725341797,
+        "y": 2.6800000667572021,
+        "z": 0.0,
+        "_x": "-17.438",
+        "_y": "2.680",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 53,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.594999313354492,
+        "y": 2.0380001068115234,
+        "z": 0.0,
+        "_x": "-16.595",
+        "_y": "2.038",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 46,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.759000778198242,
+        "y": 2.7869999408721924,
+        "z": 0.0,
+        "_x": "-16.759",
+        "_y": "2.787",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 60,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.36400032043457,
+        "y": 1.409000039100647,
+        "z": 0.0,
+        "_x": "-16.364",
+        "_y": "1.409",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 42,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.304000854492188,
+        "y": 3.6099998950958252,
+        "z": 0.0,
+        "_x": "-17.304",
+        "_y": "3.610",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 45,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.424999237060547,
+        "y": 3.1840000152587891,
+        "z": 0.0,
+        "_x": "-17.425",
+        "_y": "3.184",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 41,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.666999816894531,
+        "y": 3.2049999237060547,
+        "z": 0.0,
+        "_x": "-16.667",
+        "_y": "3.205",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 44,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.334999084472656,
+        "y": 3.4140000343322754,
+        "z": 0.0,
+        "_x": "-17.335",
+        "_y": "3.414",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 4,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.451999664306641,
+        "y": 2.8929998874664307,
+        "z": 0.0,
+        "_x": "-17.452",
+        "_y": "2.893",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 43,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.753000259399414,
+        "y": 2.9890000820159912,
+        "z": 0.0,
+        "_x": "-16.753",
+        "_y": "2.989",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 33,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.579999923706055,
+        "y": 4.48199987411499,
+        "z": 0.0,
+        "_x": "-16.580",
+        "_y": "4.482",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 40,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.170000076293945,
+        "y": 3.8020000457763672,
+        "z": 0.0,
+        "_x": "-17.170",
+        "_y": "3.802",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 39,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.542999267578125,
+        "y": 3.4219999313354492,
+        "z": 0.0,
+        "_x": "-16.543",
+        "_y": "3.422",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 37,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.430000305175781,
+        "y": 3.622999906539917,
+        "z": 0.0,
+        "_x": "-16.430",
+        "_y": "3.623",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 32,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.415000915527344,
+        "y": 4.6119999885559082,
+        "z": 0.0,
+        "_x": "-16.415",
+        "_y": "4.612",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 15,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.777000427246094,
+        "y": 4.625,
+        "z": 0.0,
+        "_x": "-14.777",
+        "_y": "4.625",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.837"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 38,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.061000823974609,
+        "y": 4.0,
+        "z": 0.0,
+        "_x": "-17.061",
+        "_y": "4.000",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 19,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.173999786376953,
+        "y": 4.5320000648498535,
+        "z": 0.0,
+        "_x": "-15.174",
+        "_y": "4.532",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.667"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 36,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.89900016784668,
+        "y": 4.1979999542236328,
+        "z": 0.0,
+        "_x": "-16.899",
+        "_y": "4.198",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 6,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.201999664306641,
+        "y": 4.7280001640319824,
+        "z": 0.0,
+        "_x": "-14.202",
+        "_y": "4.728",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-83.051"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 35,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.753000259399414,
+        "y": 4.3880000114440918,
+        "z": 0.0,
+        "_x": "-16.753",
+        "_y": "4.388",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 16,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.020000457763672,
+        "y": 5.3979997634887695,
+        "z": 0.0,
+        "_x": "-15.020",
+        "_y": "5.398",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 31,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.148000717163086,
+        "y": 3.9719998836517334,
+        "z": 0.0,
+        "_x": "-16.148",
+        "_y": "3.972",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 23,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.48799991607666,
+        "y": 4.3330001831054688,
+        "z": 0.0,
+        "_x": "-15.488",
+        "_y": "4.333",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.220"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 30,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.278999328613281,
+        "y": 4.7410001754760742,
+        "z": 0.0,
+        "_x": "-16.279",
+        "_y": "4.741",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 18,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.196999549865723,
+        "y": 5.35099983215332,
+        "z": 0.0,
+        "_x": "-15.197",
+        "_y": "5.351",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 29,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.01099967956543,
+        "y": 4.1020002365112305,
+        "z": 0.0,
+        "_x": "-16.011",
+        "_y": "4.102",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 27,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.812999725341797,
+        "y": 4.130000114440918,
+        "z": 0.0,
+        "_x": "-15.813",
+        "_y": "4.130",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 14,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.831999778747559,
+        "y": 5.4619998931884766,
+        "z": 0.0,
+        "_x": "-14.832",
+        "_y": "5.462",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 28,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.091999053955078,
+        "y": 4.88700008392334,
+        "z": 0.0,
+        "_x": "-16.092",
+        "_y": "4.887",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 12,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.590000152587891,
+        "y": 4.64900016784668,
+        "z": 0.0,
+        "_x": "-14.590",
+        "_y": "4.649",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.444"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 26,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.942999839782715,
+        "y": 4.9780001640319824,
+        "z": 0.0,
+        "_x": "-15.943",
+        "_y": "4.978",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.424"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 11,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.411999702453613,
+        "y": 4.690000057220459,
+        "z": 0.0,
+        "_x": "-14.412",
+        "_y": "4.690",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-82.332"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 25,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.692000389099121,
+        "y": 4.2659997940063477,
+        "z": 0.0,
+        "_x": "-15.692",
+        "_y": "4.266",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 24,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.755999565124512,
+        "y": 5.0879998207092285,
+        "z": 0.0,
+        "_x": "-15.756",
+        "_y": "5.088",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 22,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.574000358581543,
+        "y": 5.1690001487731934,
+        "z": 0.0,
+        "_x": "-15.574",
+        "_y": "5.169",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 34,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.290000915527344,
+        "y": 3.8269999027252197,
+        "z": 0.0,
+        "_x": "-16.290",
+        "_y": "3.827",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 5,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.001999855041504,
+        "y": 4.7529997825622559,
+        "z": 0.0,
+        "_x": "-14.002",
+        "_y": "4.753",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.334"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 20,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.390999794006348,
+        "y": 5.2690000534057617,
+        "z": 0.0,
+        "_x": "-15.391",
+        "_y": "5.269",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 17,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.970999717712402,
+        "y": 4.5770001411437988,
+        "z": 0.0,
+        "_x": "-14.971",
+        "_y": "4.577",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-98.876"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 65,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.833999633789063,
+        "y": 0.84899997711181641,
+        "z": 0.0,
+        "_x": "-16.834",
+        "_y": "0.849",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 50,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.416000366210938,
+        "y": 2.4470000267028809,
+        "z": 0.0,
+        "_x": "-17.416",
+        "_y": "2.447",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 69,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.216999053955078,
+        "y": 0.45800000429153442,
+        "z": 0.0,
+        "_x": "-16.217",
+        "_y": "0.458",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 71,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.302999496459961,
+        "y": 0.2669999897480011,
+        "z": 0.0,
+        "_x": "-16.303",
+        "_y": "0.267",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 73,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.98900032043457,
+        "y": 0.24699999392032623,
+        "z": 0.0,
+        "_x": "-16.989",
+        "_y": "0.247",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 74,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.3439998626709,
+        "y": 0.097999997437000275,
+        "z": 0.0,
+        "_x": "-16.344",
+        "_y": "0.098",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 77,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.059000015258789,
+        "y": 0.087999999523162842,
+        "z": 0.0,
+        "_x": "-17.059",
+        "_y": "0.088",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 78,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.399999618530273,
+        "y": -0.065999999642372131,
+        "z": 0.0,
+        "_x": "-16.400",
+        "_y": "-0.066",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 79,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.134000778198242,
+        "y": -0.045000001788139343,
+        "z": 0.0,
+        "_x": "-17.134",
+        "_y": "-0.045",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 80,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.547000885009766,
+        "y": -0.23199999332427979,
+        "z": 0.0,
+        "_x": "-16.547",
+        "_y": "-0.232",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 81,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.179000854492188,
+        "y": -0.22800000011920929,
+        "z": 0.0,
+        "_x": "-17.179",
+        "_y": "-0.228",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 82,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.555000305175781,
+        "y": -0.42500001192092896,
+        "z": 0.0,
+        "_x": "-16.555",
+        "_y": "-0.425",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 83,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.201999664306641,
+        "y": -0.41800001263618469,
+        "z": 0.0,
+        "_x": "-17.202",
+        "_y": "-0.418",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 84,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.514999389648438,
+        "y": -0.61500000953674316,
+        "z": 0.0,
+        "_x": "-16.515",
+        "_y": "-0.615",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 85,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.173000335693359,
+        "y": -0.58099997043609619,
+        "z": 0.0,
+        "_x": "-17.173",
+        "_y": "-0.581",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.348"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 88,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.417999267578125,
+        "y": -0.8880000114440918,
+        "z": 0.0,
+        "_x": "-16.418",
+        "_y": "-0.888",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 87,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -17.038999557495117,
+        "y": -0.78700000047683716,
+        "z": 0.0,
+        "_x": "-17.039",
+        "_y": "-0.787",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 92,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.3700008392334,
+        "y": -1.2649999856948853,
+        "z": 0.0,
+        "_x": "-16.370",
+        "_y": "-1.265",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 89,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.981000900268555,
+        "y": -0.95999997854232788,
+        "z": 0.0,
+        "_x": "-16.981",
+        "_y": "-0.960",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 90,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.415000915527344,
+        "y": -1.062000036239624,
+        "z": 0.0,
+        "_x": "-16.415",
+        "_y": "-1.062",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.202"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 91,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.958999633789063,
+        "y": -1.1239999532699585,
+        "z": 0.0,
+        "_x": "-16.959",
+        "_y": "-1.124",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 47,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.929000854492188,
+        "y": -1.2680000066757202,
+        "z": 0.0,
+        "_x": "-16.929",
+        "_y": "-1.268",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 101,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.920999526977539,
+        "y": -1.7489999532699585,
+        "z": 0.0,
+        "_x": "-16.921",
+        "_y": "-1.749",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.642"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 94,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.882999420166016,
+        "y": -1.4149999618530273,
+        "z": 0.0,
+        "_x": "-16.883",
+        "_y": "-1.415",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 95,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.895000457763672,
+        "y": -1.5709999799728394,
+        "z": 0.0,
+        "_x": "-16.895",
+        "_y": "-1.571",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 96,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.332000732421875,
+        "y": -1.437000036239624,
+        "z": 0.0,
+        "_x": "-16.332",
+        "_y": "-1.437",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 97,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.315000534057617,
+        "y": -1.625,
+        "z": 0.0,
+        "_x": "-16.315",
+        "_y": "-1.625",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 98,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.318000793457031,
+        "y": -1.8359999656677246,
+        "z": 0.0,
+        "_x": "-16.318",
+        "_y": "-1.836",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 99,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.309000015258789,
+        "y": -2.0690000057220459,
+        "z": 0.0,
+        "_x": "-16.309",
+        "_y": "-2.069",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 100,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.288000106811523,
+        "y": -2.4389998912811279,
+        "z": 0.0,
+        "_x": "-16.288",
+        "_y": "-2.439",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 93,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.951000213623047,
+        "y": -2.1700000762939453,
+        "z": 0.0,
+        "_x": "-16.951",
+        "_y": "-2.170",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 102,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.91200065612793,
+        "y": -1.9459999799728394,
+        "z": 0.0,
+        "_x": "-16.912",
+        "_y": "-1.946",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 103,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.302000045776367,
+        "y": -2.255000114440918,
+        "z": 0.0,
+        "_x": "-16.302",
+        "_y": "-2.255",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 119,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.605999946594238,
+        "y": -3.1770000457763672,
+        "z": 0.0,
+        "_x": "-15.606",
+        "_y": "-3.177",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 105,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.947999954223633,
+        "y": -2.3389999866485596,
+        "z": 0.0,
+        "_x": "-16.948",
+        "_y": "-2.339",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 122,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.072999954223633,
+        "y": -3.8989999294281006,
+        "z": 0.0,
+        "_x": "-16.073",
+        "_y": "-3.899",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 107,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.9060001373291,
+        "y": -2.5580000877380371,
+        "z": 0.0,
+        "_x": "-16.906",
+        "_y": "-2.558",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 108,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.788000106811523,
+        "y": -2.74399995803833,
+        "z": 0.0,
+        "_x": "-16.788",
+        "_y": "-2.744",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 109,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.165000915527344,
+        "y": -2.753000020980835,
+        "z": 0.0,
+        "_x": "-16.165",
+        "_y": "-2.753",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 110,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.690999984741211,
+        "y": -2.9639999866485596,
+        "z": 0.0,
+        "_x": "-16.691",
+        "_y": "-2.964",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 111,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.607000350952148,
+        "y": -3.1150000095367432,
+        "z": 0.0,
+        "_x": "-16.607",
+        "_y": "-3.115",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 112,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.461000442504883,
+        "y": -3.2409999370574951,
+        "z": 0.0,
+        "_x": "-16.461",
+        "_y": "-3.241",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 114,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.253999710083008,
+        "y": -3.5880000591278076,
+        "z": 0.0,
+        "_x": "-16.254",
+        "_y": "-3.588",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 123,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.369000434875488,
+        "y": -3.6459999084472656,
+        "z": 0.0,
+        "_x": "-15.369",
+        "_y": "-3.646",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 113,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.392000198364258,
+        "y": -3.4140000343322754,
+        "z": 0.0,
+        "_x": "-16.392",
+        "_y": "-3.414",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 128,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.968999862670898,
+        "y": -4.2950000762939453,
+        "z": 0.0,
+        "_x": "-15.969",
+        "_y": "-4.295",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 106,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.26099967956543,
+        "y": -2.6159999370574951,
+        "z": 0.0,
+        "_x": "-16.261",
+        "_y": "-2.616",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 116,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.994000434875488,
+        "y": -2.8280000686645508,
+        "z": 0.0,
+        "_x": "-15.994",
+        "_y": "-2.828",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 121,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.444999694824219,
+        "y": -3.4790000915527344,
+        "z": 0.0,
+        "_x": "-15.445",
+        "_y": "-3.479",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 120,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.541999816894531,
+        "y": -3.3159999847412109,
+        "z": 0.0,
+        "_x": "-15.542",
+        "_y": "-3.316",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 118,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.758000373840332,
+        "y": -3.0799999237060547,
+        "z": 0.0,
+        "_x": "-15.758",
+        "_y": "-3.080",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 127,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.213000297546387,
+        "y": -4.2430000305175781,
+        "z": 0.0,
+        "_x": "-15.213",
+        "_y": "-4.243",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 117,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.857999801635742,
+        "y": -2.9449999332427979,
+        "z": 0.0,
+        "_x": "-15.858",
+        "_y": "-2.945",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 125,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.277000427246094,
+        "y": -4.0190000534057617,
+        "z": 0.0,
+        "_x": "-15.277",
+        "_y": "-4.019",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 124,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.307000160217285,
+        "y": -3.812999963760376,
+        "z": 0.0,
+        "_x": "-15.307",
+        "_y": "-3.813",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 115,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.113000869750977,
+        "y": -3.7269999980926514,
+        "z": 0.0,
+        "_x": "-16.113",
+        "_y": "-3.727",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 133,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.451000213623047,
+        "y": -5.2369999885559082,
+        "z": 0.0,
+        "_x": "-15.451",
+        "_y": "-5.237",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 126,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -16.055999755859375,
+        "y": -4.0970001220703125,
+        "z": 0.0,
+        "_x": "-16.056",
+        "_y": "-4.097",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 129,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.897000312805176,
+        "y": -4.4980001449584961,
+        "z": 0.0,
+        "_x": "-15.897",
+        "_y": "-4.498",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 130,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.796999931335449,
+        "y": -4.6409997940063477,
+        "z": 0.0,
+        "_x": "-15.797",
+        "_y": "-4.641",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 131,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.529999732971191,
+        "y": -5.0250000953674316,
+        "z": 0.0,
+        "_x": "-15.530",
+        "_y": "-5.025",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 132,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.722999572753906,
+        "y": -4.8309998512268066,
+        "z": 0.0,
+        "_x": "-15.723",
+        "_y": "-4.831",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 104,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.024999618530273,
+        "y": -5.554999828338623,
+        "z": 0.0,
+        "_x": "-15.025",
+        "_y": "-5.555",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.332"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 134,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.163000106811523,
+        "y": -4.4660000801086426,
+        "z": 0.0,
+        "_x": "-15.163",
+        "_y": "-4.466",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 7,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "_x": "0.000",
+        "_y": "0.000",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.777"
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "_x": "1.000",
+        "_y": "1.000",
+        "_z": "1.000"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 137,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.447999954223633,
+        "y": -4.7859997749328613,
+        "z": 0.0,
+        "_x": "-14.448",
+        "_y": "-4.786",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 135,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.96399974822998,
+        "y": -4.5679998397827148,
+        "z": 0.0,
+        "_x": "-14.964",
+        "_y": "-4.568",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 139,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.145999908447266,
+        "y": -5.5329999923706055,
+        "z": 0.0,
+        "_x": "-15.146",
+        "_y": "-5.533",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.551"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 140,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -15.303999900817871,
+        "y": -5.4060001373291016,
+        "z": 0.0,
+        "_x": "-15.304",
+        "_y": "-5.406",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-87.550"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 136,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.718999862670898,
+        "y": -4.684999942779541,
+        "z": 0.0,
+        "_x": "-14.719",
+        "_y": "-4.685",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 138,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.232999801635742,
+        "y": -4.8429999351501465,
+        "z": 0.0,
+        "_x": "-14.233",
+        "_y": "-4.843",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 141,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.038999557495117,
+        "y": -4.8880000114440918,
+        "z": 0.0,
+        "_x": "-14.039",
+        "_y": "-4.888",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 142,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.8100004196167,
+        "y": -5.5630002021789551,
+        "z": 0.0,
+        "_x": "-14.810",
+        "_y": "-5.563",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 143,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.5649995803833,
+        "y": -5.5679998397827148,
+        "z": 0.0,
+        "_x": "-14.565",
+        "_y": "-5.568",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 144,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.33899974822998,
+        "y": -5.570000171661377,
+        "z": 0.0,
+        "_x": "-14.339",
+        "_y": "-5.570",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 145,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -14.065999984741211,
+        "y": -5.6050000190734863,
+        "z": 0.0,
+        "_x": "-14.066",
+        "_y": "-5.605",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    },
+    {
+      "DataID": 40200086,
+      "UNIQUEID": 146,
+      "m_eobstacleObjType": 4,
+      "pos": {
+        "x": -13.850000381469727,
+        "y": -5.5900001525878906,
+        "z": 0.0,
+        "_x": "-13.850",
+        "_y": "-5.590",
+        "_z": "0.000"
+      },
+      "rot": {
+        "roll": "0.000",
+        "pitch": "0.000",
+        "yaw": "-88.774"
+      },
+      "scale": {
+        "x": 0.30000001192092896,
+        "y": 0.30000001192092896,
+        "z": 0.30000001192092896,
+        "_x": "0.300",
+        "_y": "0.300",
+        "_z": "0.300"
+      }
+    }
+  ],
+  "spawnPointList": [],
+  "tlList": [
+    {
+      "index": 0,
+      "state": 0,
+      "deltaTime": 6.0310921669006348
+    }
+  ],
+  "mapInfo": {
+    "mapName": "R_OUT_KookminTrack_contest23",
+    "eastOffset": 0.0,
+    "northOffset": 0.0,
+    "globalCoordinateSystem": "",
+    "scenarioCoordinateSystem": "ENU"
+  },
+  "v2IInfo": {
+    "isAlive": false,
+    "acceptIp": "127.0.0.1",
+    "acceptPort": 5000,
+    "v2vIP": "127.0.0.1"
+  },
+  "pedspawnPointList": [],
+  "aiPedstrianList": [],
+  "shadedAreaList": [],
+  "frictionChangeMaterialList": []
+}
